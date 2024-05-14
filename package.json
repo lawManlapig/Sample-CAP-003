@@ -33,7 +33,6 @@
       ]
     },
     "requires": {
-      "auth": "xsuaa",
       "db": "hana"
     }
   }
