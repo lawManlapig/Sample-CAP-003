@@ -8,4 +8,5 @@ service Entities_Service {
 
     //View
     entity CV_Postings as projection on entities.CV_Postings;
+    entity CV_GLAccounts as projection on entities.CV_GLAccounts;
 }
