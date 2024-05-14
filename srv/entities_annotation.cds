@@ -32,7 +32,10 @@ annotate entities.FIDocumentItems with @(UI: {
 
 
     FieldGroup #DocumentDetails: {Data: [
-        {Value: accountingdocument_accountingdocument},
+        {
+            Value                  : accountingdocument_accountingdocument,
+            ![@Common.FieldControl]: #ReadOnly
+        },
         {Value: itemnumber},
         {Value: glaccount}
     ]},
